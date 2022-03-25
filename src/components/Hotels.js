@@ -1,7 +1,7 @@
 const Hotels = [
     {
         "name": "Hotel1",
-        "img": "hms/HotelsImages/hot1.jpg",
+        "img": "HotelsImages/hot1.jpg",
         "address": "street1",
     },
     {
@@ -11,12 +11,12 @@ const Hotels = [
     },
     {
         "name": "Hotel3",
-        "img": "hms/HotelsImages/hot3.jpg",
+        "img": "HotelsImages/hot3.jpg",
         "address": "hot1, street3",
     },
     {
         "name": "Hotel4",
-        "img": "hms/HotelsImages/hot4.jpg",
+        "img": "HotelsImages/hot4.jpg",
         "address": "hot1, street4",
     }
 ]

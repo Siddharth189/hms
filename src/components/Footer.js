@@ -25,10 +25,10 @@ function Footer() {
                 <li><a href="/" >Newsletter</a></li>
             </ul>
             <ul className="footer-vert-list socials">
-                <li><a href="https://facbook.com/" ><img src={'hms/fb.png'} alt="fb"/></a></li>
-                <li><a href="https://twitter.com/" ><img src={'hms/twtr.png'} alt="twtr"/></a></li>
-                <li><a href="https://instagram.com/siddharth189__/" ><img src={'hms/ig.png'} alt="ig"/></a></li>
-                <li><a href="https://linkedin.com/in/Siddharth189/" ><img src={'hms/in.png'} alt="in"/></a></li>
+                <li><a href="https://facbook.com/" ><img src={'fb.png'} alt="fb"/></a></li>
+                <li><a href="https://twitter.com/" ><img src={'twtr.png'} alt="twtr"/></a></li>
+                <li><a href="https://instagram.com/siddharth189__/" ><img src={'ig.png'} alt="ig"/></a></li>
+                <li><a href="https://linkedin.com/in/Siddharth189/" ><img src={'in.png'} alt="in"/></a></li>
             </ul>
         </div>
         </div>
