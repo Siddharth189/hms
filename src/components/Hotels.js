@@ -6,7 +6,7 @@ const Hotels = [
     },
     {
         "name": "Hotel2",
-        "img": "hms/HotelsImages/hot2.jpg",
+        "img": "HotelsImages/hot2.jpg",
         "address": "street2",
     },
     {
