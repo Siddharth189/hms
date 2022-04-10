@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Result from "./Result";
-import Hotels from "./Hotels";
 
 const HOTELS = ["taj", "mah", "sfs", "sdw", "erw"];
 
