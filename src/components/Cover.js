@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "../App.css";
+
 
 function Cover() {
     return (
@@ -10,7 +12,7 @@ function Cover() {
             </div>
             
             <div className="cover-arrow">
-            <a href="#destination-cover" className="cover-arrow-link">↓</a>
+            <Link to="destination-cover" className="cover-arrow-link">↓</Link>
             <p>Explore <br /> Destination</p>
             </div>
         </div>

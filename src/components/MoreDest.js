@@ -15,7 +15,7 @@ function MoreDest() {
             </p>
         </div>
         <div className="destination-hotel-display more-destination-hotel-display">
-            { Hotels.map(Hotel => <HotelCard name={Hotel.name} img={Hotel.img} add={Hotel.address} />) }
+            { Hotels.map(Hotel => <HotelCard name={Hotel.name} img={Hotel.img} add={Hotel.address} id={Hotel.id} />) }
         </div>
         </div>
         </>
