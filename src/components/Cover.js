@@ -7,13 +7,13 @@ function Cover() {
         <>
         <div className="cover">
             <div className="cover-words">
-            <h1 className="cover-words-top">make the right</h1>
-            <h1 className="cover-words-bottom">move.</h1>
+                <h1 className="cover-words-top">make the right</h1>
+                <h1 className="cover-words-bottom">move.</h1>
             </div>
             
             <div className="cover-arrow">
-            <Link to="destination-cover" className="cover-arrow-link">↓</Link>
-            <p>Explore <br /> Destination</p>
+                <Link to="destination-cover" className="cover-arrow-link">↓</Link>
+                <p>Explore <br /> Destination</p>
             </div>
         </div>
         </>
