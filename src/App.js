@@ -16,11 +16,11 @@ function App() {
     <BrowserRouter>  
     <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/destination-cover' element={<Dest />} />
-        <Route path='/deals' element={<Deals />} />
-        <Route path='/explore' element={<Explore />} />
-        <Route path='/footer' element={<Footer />} />
+        <Route path='/hms' element={<Home />} />
+        <Route path='/hms/destination-cover' element={<Dest />} />
+        <Route path='/hms/deals' element={<Deals />} />
+        <Route path='/hms/explore' element={<Explore />} />
+        <Route path='/hms/footer' element={<Footer />} />
       </Routes>
     </BrowserRouter>
     </StrictMode>

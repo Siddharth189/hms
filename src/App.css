@@ -204,10 +204,15 @@ ul li a {
 }
 
 /* socials */
-.footer-content img {
-  width: 47px;
+.socials a {
+  font-size: 40px;
   height: auto;
-  border-radius: 50%;
+  display: flex;
+  padding: 10px;
+}
+.socials a:hover {
+  text-decoration: none;
+  box-shadow: 20px 20px 50px 10px pink inset;
 }
 
 
