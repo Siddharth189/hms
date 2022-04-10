@@ -6,7 +6,7 @@ const HOTELS = ["taj", "mah", "sfs", "sdw", "erw"];
 const SearchParams = ()=>{
     const [location, setLocation] = useState("");
     const [hotel, setHotel] = useState("");
-    const [price, setPrice] = useState("");
+    const [price, setPrice] = useState("600000");
 
     function changeHandler(props) {
         return setLocation(props)

@@ -7,7 +7,7 @@ function HotelCard(props) {
         <>
         
         <div className="hotel-card" style={{ backgroundImage: `linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.7)), url(${props.img})` }}>
-        <Link to={`/hotels/${props.id}`}><h1>{props.name}</h1></Link>
+        <Link to={`/hms/hotels/${props.id}`}><h1>{props.name}</h1></Link>
         <p>{props.add}</p>
         </div>
         </>

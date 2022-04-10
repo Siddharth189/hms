@@ -6,6 +6,7 @@ import Deals from './components/Deals';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Explore from './components/Explore';
+import Details from './components/Details';
 import { StrictMode } from 'react';
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/hms/deals' element={<Deals />} />
         <Route path='/hms/explore' element={<Explore />} />
         <Route path='/hms/footer' element={<Footer />} />
+        <Route path='/hms/hotels/:id' element={<Details />} />
       </Routes>
     </BrowserRouter>
     </StrictMode>
