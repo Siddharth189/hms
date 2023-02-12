@@ -49,7 +49,7 @@ function MoreDest() {
         <div className="destination-hotel-display more-destination-hotel-display">
           {top4Hotel.map((Hotel) => (
             <HotelCard
-              key=
+              key={Hotel.id}
               name={Hotel.name}
               img={Hotel.img}
               add={Hotel.address}
