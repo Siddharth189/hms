@@ -2,23 +2,26 @@
   background-color: #ffffff;
 }
 
-
-
 /* Link */
 a {
   color: white;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 .header {
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 30px;
-  align-items: baseline;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.header img {
+  width: 100px;
 }
 
 .header ul li {
@@ -38,16 +41,14 @@ ul li a {
   color: #00c5af;
 }
 
-
 /* Header Nav BAR*/
-.header-nav-bar{
+.header-nav-bar {
   display: flex;
   flex-direction: row;
 }
 
-.items{
-  font-size: clamp(1rem,5vw,2rem);
-
+.items {
+  font-size: clamp(1rem, 5vw, 2rem);
 }
 
 .btn {
@@ -55,7 +56,6 @@ ul li a {
   color: #000;
   font-size: 30px;
 }
-
 
 /* Cover */
 .cover {
@@ -68,7 +68,7 @@ ul li a {
   color: white;
   display: flex;
   flex-direction: column;
-  
+
   overflow: auto;
 }
 
@@ -81,14 +81,14 @@ ul li a {
 .cover-words-top {
   color: #fdcd00;
   /* font-size: 95px; */
-  font-size : clamp(3rem, 8vw, 5rem);
+  font-size: clamp(3rem, 8vw, 5rem);
   font-family: cursive;
 }
 
 .cover-words-bottom {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size : clamp(6rem, 15vw, 10rem);
+  font-size: clamp(6rem, 15vw, 10rem);
   line-height: 0.999rem;
 }
 
@@ -141,11 +141,11 @@ ul li a {
 }
 .destination-heading-top {
   color: #fdcd00;
-  font-size : clamp(3rem, 5vw, 4rem);
+  font-size: clamp(3rem, 5vw, 4rem);
   font-family: cursive;
 }
 .destination-heading-bottom {
-  font-size : clamp(3rem, 7vw, 5rem);
+  font-size: clamp(3rem, 7vw, 5rem);
   line-height: 00.999rem;
 }
 
@@ -168,7 +168,7 @@ ul li a {
   justify-content: center;
   border-radius: 10px;
   text-align: center;
-  width: 20%;
+  width: 20vw;
   min-width: 180px;
   margin-bottom: 10px;
   height: 100%; /* You must set a specified height */
@@ -188,19 +188,22 @@ ul li a {
 
 .more-destination-heading-top {
   color: #1ccbb8;
-  font-size : clamp(3rem, 5vw, 4rem);
-
+  font-size: clamp(3rem, 5vw, 4rem);
 }
 .more-destination-heading-bottom {
-  font-size : clamp(3rem, 7vw, 5rem);
-
+  font-size: clamp(3rem, 7vw, 5rem);
 }
 
 /* Footer */
 .footer-cover {
   /* background-image: url("../public/footer.jpg"); */
   background-color: #00c5af;
-  background-image: linear-gradient(43deg, #00c5af 20%, #C850C0 60%, #FFCC70 100%);
+  background-image: linear-gradient(
+    43deg,
+    #00c5af 20%,
+    #c850c0 60%,
+    #ffcc70 100%
+  );
   /* background-color: #00DBDE;
   background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
 
@@ -213,9 +216,7 @@ ul li a {
   display: flex;
 }
 
-
 .footer-content {
-  
   width: 100vw;
   height: 100%;
   display: flex;
@@ -225,7 +226,7 @@ ul li a {
   flex-direction: row;
   font-size: 1.3rem;
 }
-.footer-content > ul{
+.footer-content > ul {
   min-width: 170px;
 }
 .footer-content a {
@@ -249,12 +250,31 @@ ul li a {
   box-shadow: 20px 20px 50px 10px pink inset;
 }
 
-
 /* explore */
 .search-params {
   width: 100vw;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* Hotel Details */
+.hotel-detail-title {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.hotel-detail-info {
+  display: flex;
+  padding: 50px;
+}
+
+.hotel-detail-info img {
+  border-radius: 10px;
+  width: 40vw;
+  min-width: 360px;
+  height: 100%; /* You must set a specified height */
+  min-height: 540px;
+  margin-right: 20px;
 }
 
 .search-params form {
@@ -268,36 +288,22 @@ ul li a {
   margin: auto;
 }
 
-.search {
+.search-result {
+  min-width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.result-hotel {
   border-radius: 6px;
   background: #faeff0;
   box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
-  width: 67vw;
-  min-width: 360px;
-  padding: 15px;
-  float: left;
-  margin: auto;
-  margin-top: 10px;
-}
-
-
-.result-hotel {
-  width: 100%;
-  height: auto;
+  padding: 10px;
+  width: 22%;
+  margin: 20px;
   display: flex;
-  overflow: hidden;
-  margin: auto;
-  padding: 10px;
-  border-bottom: #333 2px solid;
-}
-
-.info {
-  float: left;
-  width: 80%;
-  height: 100px;
-  padding: 10px;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .search-params label {
@@ -377,68 +383,64 @@ ul li a {
   margin-right: 15px;
 }
 
-
 /* Media query Nav Bar*/
-@media screen and (max-width: 960px){
-  .header-nav-bar{
+@media screen and (max-width: 960px) {
+  .header-nav-bar {
     flex-direction: column;
-
   }
   .list {
-      display: flex;
-      flex-direction: column;
-      height: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
-  .items:nth-child(1){
-      /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
-      margin-top: 20px;
+  .items:nth-child(1) {
+    /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
+    margin-top: 20px;
   }
   .items {
-      width: 100%;
-      /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
-      text-align: center;
-      margin-right: 0px;
-      padding: 10px 0;
+    width: 100%;
+    /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
+    text-align: center;
+    margin-right: 0px;
+    padding: 10px 0;
   }
   .btn {
-      display: block;
-      background: none;
-      border: none;
-      margin: auto;
-      font-size: 3rem;
+    display: block;
+    background: none;
+    border: none;
+    margin: auto;
+    font-size: 3rem;
   }
 }
 
-
-@media screen and (max-width: 960px){
-  .header-nav-bar{
+@media screen and (max-width: 960px) {
+  .header-nav-bar {
     flex-direction: column;
-
   }
   .list {
-      display: flex;
-      flex-direction: column;
-      height: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
-  .items:nth-child(1){
-      /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
-      margin-top: 1px;
+  .items:nth-child(1) {
+    /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
+    margin-top: 1px;
   }
   .items {
-      width: 100%;
-      /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
-      text-align: center;
-      margin-right: 0px;
-      padding: 10px 0;
+    width: 100%;
+    /* border-top: 1px solid rgba(25, 255, 25, 0.555); */
+    text-align: center;
+    margin-right: 0px;
+    padding: 10px 0;
   }
   .btn {
-      display: block;
-      background: none;
-      border: none;
-      margin: auto;
-      font-size: 3rem;
+    display: block;
+    background: none;
+    border: none;
+    margin: auto;
+    font-size: 3rem;
   }
-  .socials{
+  .socials {
     display: flex;
     flex-direction: row;
     margin: auto;

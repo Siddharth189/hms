@@ -1,32 +1,68 @@
 const Hotels = [
-    {
-        "id": "1",
-        "price": "1100",
-        "name": "Hotel1",
-        "img": "/hms/HotelsImages/hot1.jpg",
-        "address": "street1",
-    },
-    {
-        "id": "2",
-        "price": "1200",
-        "name": "Hotel2",
-        "img": "/hms/HotelsImages/hot2.jpg",
-        "address": "street2",
-    },
-    {
-        "id": "3",
-        "price": "1030",
-        "name": "Hotel3",
-        "img": "/hms/HotelsImages/hot3.jpg",
-        "address": "hot1, street3",
-    },
-    {
-        "id": "4",
-        "price": "1004",
-        "name": "Hotel4",
-        "img": "/hms/HotelsImages/hot4.jpg",
-        "address": "hot1, street4",
-    }
-]
+  {
+    id: "1",
+    price: "11000",
+    name: "Hotel1",
+    img: "hot1.jpg",
+    address: "street1",
+    rating: 4.2,
+  },
+  {
+    id: "2",
+    price: "2000",
+    name: "Hotel2",
+    img: "hot2.jpg",
+    address: "street2",
+    rating: 4.2,
+  },
+  {
+    id: "3",
+    price: "1001",
+    name: "Hotel3",
+    img: "hot3.jpg",
+    address: "hot1, street3",
+    rating: 4.2,
+  },
+  {
+    id: "4",
+    price: "100000",
+    name: "Hotel4",
+    img: "hot4.jpg",
+    address: "hot1, street4",
+    rating: 4.1,
+  },
+  {
+    id: "5",
+    price: "60000",
+    name: "Hotel1",
+    img: "hot1.jpg",
+    address: "street5",
+    rating: 4.3,
+  },
+  {
+    id: "6",
+    price: "12000",
+    name: "Hotel2",
+    img: "hot2.jpg",
+    address: "street6",
+    rating: 4.5,
+  },
+  {
+    id: "7",
+    price: "20000",
+    name: "Hotel3",
+    img: "hot3.jpg",
+    address: "hot1, street7",
+    rating: 3.7,
+  },
+  {
+    id: "8",
+    price: "10000",
+    name: "Hotel8",
+    img: "hot4.jpg",
+    address: "hot1, street8",
+    rating: 3.6,
+  },
+];
 
 export default Hotels;
